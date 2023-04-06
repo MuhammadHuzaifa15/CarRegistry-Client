@@ -136,4 +136,4 @@ export const carRegistryAbi = [
   },
 ];
 
-export const contractAddress = "0x692Db73138f1279Dd5ee67FbBfe1685b2734809f";
+export const contractAddress = "0xB631c8c566Bd1bd582b63b8463a8A56F9d21ffE4";

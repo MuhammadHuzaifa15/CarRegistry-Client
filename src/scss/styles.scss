@@ -1,0 +1,74 @@
+@import "~antd/dist/antd.css", "./variables.scss";
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Ubuntu&display=swap");
+
+html {
+  font-family: "Ubuntu", "Fira Sans", sans-serif !important;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", "Fira Sans", sans-serif !important;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  position: relative;
+}
+
+.icon {
+  width: 14px;
+  margin-right: 10px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.ant-drawer-content-wrapper {
+  @include respond-to(small) {
+    width: 400px;
+  }
+  @include respond-to(medium) {
+    width: 100%;
+  }
+}
+
+.add-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 24px;
+}
+
+.ant-picker,
+.ant-input-number {
+  width: 100%;
+}
+
+.ant-card {
+  &:not(:first-child) {
+    margin-top: 20px;
+  }
+}
+
+.stats-filter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.v-gutter {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}

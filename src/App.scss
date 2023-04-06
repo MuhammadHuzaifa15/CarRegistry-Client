@@ -1,0 +1,25 @@
+.ant-layout-sider {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  z-index: 101;
+}
+
+.ant-layout-header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  padding: 0px !important;
+}
+
+.ant-layout-content {
+  padding: 25px;
+  margin-top: 64px;
+  background: #fff !important;
+}
+
+#child-content {
+  padding: 20px 0px;
+}

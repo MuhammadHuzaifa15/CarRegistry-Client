@@ -1,0 +1,39 @@
+.partial-top-nav {
+  & > div {
+    display: inline-block;
+  }
+
+  .menu-collapse-trigger {
+    font-size: 18px;
+    padding: 0 12px;
+    margin: 0 12px;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #1890ff;
+    }
+  }
+
+  .menu-icon-notifications {
+    padding: 0 12px;
+    margin: 0 12px;
+    cursor: pointer;
+  }
+
+  .menu-icon-help {
+    padding: 0 12px;
+    margin: 0 12px;
+    cursor: pointer;
+  }
+
+  .menu-user-dropdown {
+    padding: 0 12px;
+    margin: 0 12px;
+    cursor: pointer;
+  }
+}
+
+.anticon-logout {
+  padding-right: 6px;
+}
